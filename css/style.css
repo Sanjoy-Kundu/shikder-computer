@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.card img {
+	transition: .3s all;
+
+}
+
+.card:hover img {
+	transform: scale(1.1);
+}
+
+.fa-shopping-bag {
+	font-size: 20px;
+	color: rgb(17, 17, 219);
+}
+
+.card-body a:hover {
+	color: rgb(17, 17, 219);
+	transition: .2s all;
+}
+
+/*add product start */
+/* Style the tab */
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+
+.tabcontent {
+	animation: fadeEffect 1s;
+	/* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+/*add product end */
+
+
+
+/* LATEST CARD IMAGE SIZE*/
+.latest-card-img {
+	height: 259px;
+	width: 282px;
+	margin: 0 auto;
+}
+
+.latest-card-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.fa-star {
+	color: orange;
+}
+
+/* LATEST CARD IMAGE SIZE END*/
